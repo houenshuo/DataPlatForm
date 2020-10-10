@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Iot-ConfigServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Iot-DataCollectService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Iot-DataStorage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Iot-DeviceManagement" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Iot-DevicesManage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Iot-EurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo1" charset="UTF-8" />
+  </component>
+</project>

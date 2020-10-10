@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-api" />
+        <module name="Iot-DeviceManagement" />
+        <module name="Iot-ConfigServer" />
+        <module name="Iot-DataStorage" />
+        <module name="Iot-EurekaServer" />
+        <module name="Iot-DataCollectService" />
+        <module name="demo1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-api" target="8" />
+      <module name="DataPlatForm" target="8" />
+      <module name="demo1" target="8" />
+      <module name="Iot-ConfigServer" target="8" />
+      <module name="Iot-DataCollectService" target="8" />
+      <module name="Iot-DataStorage" target="8" />
+      <module name="Iot-DeviceManagement" target="8" />
+      <module name="Iot-DevicesManage" target="8" />
+      <module name="Iot-EurekaServer" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

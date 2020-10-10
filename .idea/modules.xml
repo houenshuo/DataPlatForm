@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataPlatForm.iml" filepath="$PROJECT_DIR$/DataPlatForm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Iot-ConfigServer/Iot-ConfigServer.iml" filepath="$PROJECT_DIR$/Iot-ConfigServer/Iot-ConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Iot-DataCollectService/Iot-DataCollectService.iml" filepath="$PROJECT_DIR$/Iot-DataCollectService/Iot-DataCollectService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Iot-DataStorage/Iot-DataStorage.iml" filepath="$PROJECT_DIR$/Iot-DataStorage/Iot-DataStorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Iot-DeviceManagement/Iot-DeviceManagement.iml" filepath="$PROJECT_DIR$/Iot-DeviceManagement/Iot-DeviceManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Iot-EurekaServer/Iot-EurekaServer.iml" filepath="$PROJECT_DIR$/Iot-EurekaServer/Iot-EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo1/demo1.iml" filepath="$PROJECT_DIR$/demo1/demo1.iml" />
+    </modules>
+  </component>
+</project>

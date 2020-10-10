@@ -1,0 +1,61 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: Iot-DataCollectService
+  cloud:
+    stream:
+      bindings:
+        default:
+          content-type: application/json
+          binder: rabbitmq
+        inboundDevicesChanges:
+          group: devices-group
+          destination: devices-destination
+      binders:
+        rabbitmq:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 127.0.0.1
+                port: 5672
+                username: guest
+                password: guest
+                virtual-host: /
+  data:
+    mongodb:
+      host: 127.0.0.1
+      database: sensor
+      port: 27017
+      username: admin
+      password: admin
+
+
+iot:
+  mqtt:
+    server:
+      enable: true
+      host: 127.0.0.1
+      port: 1883
+      log: false
+      protocol: MQTT
+      heart: 50000
+      ssl: false
+    client:
+      enable: true
+      ip: 127.0.0.1
+      port: 1883
+      log: false
+      protocol: MQTT
+      heart: 5000
+      ssl: false
+      option:
+        clientIdentifier: consumer
+        userName: 123
+        password: 123
+        willMessage: 订阅者--关闭
+        willTopic: close
+        willQos: 0
+

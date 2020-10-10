@@ -1,0 +1,23 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "iot.ccnu.dataCollect.mqttServer.container.IotConfig",
+      "name": "iot.mqtt",
+      "type": "iot.ccnu.dataCollect.mqttServer.container.IotConfig"
+    },
+    {
+      "sourceType": "iot.ccnu.dataCollect.mqttServer.container.IotConfig",
+      "name": "iot.mqtt.client",
+      "sourceMethod": "getClient()",
+      "type": "iot.ccnu.dataCollect.mqttServer.container.IotConfig$Client"
+    },
+    {
+      "sourceType": "iot.ccnu.dataCollect.mqttServer.container.IotConfig",
+      "name": "iot.mqtt.server",
+      "sourceMethod": "getServer()",
+      "type": "iot.ccnu.dataCollect.mqttServer.container.IotConfig$Server"
+    }
+  ],
+  "properties": []
+}
